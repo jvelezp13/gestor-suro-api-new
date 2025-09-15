@@ -1,0 +1,35 @@
+{
+  "name": "gestor-suro-api",
+  "version": "1.0.0",
+  "description": "Backend API for Gestor Suro Dashboard - Google Sheets integration",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'No build needed for this project'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "googleapis": "^126.0.1",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "google-sheets",
+    "dashboard",
+    "api",
+    "nodejs"
+  ],
+  "author": "Julian Velez",
+  "license": "MIT"
+}
